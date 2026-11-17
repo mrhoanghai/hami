@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Học tiếng Trung HSK — nghe, xem từng nét chữ</title>
+    <meta name="description" content="Học từ vựng tiếng Trung theo HSK: tìm kiếm, nghe đọc, xem thứ tự nét chữ, flashcard, lưu tiến độ trên thiết bị." />
+    <link rel="icon" type="image/svg+xml" href="img/hami.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      try {
+        var s = JSON.parse(localStorage.getItem('vocab_zh_settings_v1') || '{}');
+        document.documentElement.dataset.theme = s.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="app"><p class="boot">Đang tải…</p></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/hanzi-writer.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

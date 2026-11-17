@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "datasetVersion": "6a83206a8d",
+ "syllabus": "hsk-exam-2025-11",
+ "importedAt": "2026-11-17T05:49:04.143621+00:00",
+ "totalEntries": 11000,
+ "perBand": {
+  "1": 300,
+  "2": 200,
+  "3": 500,
+  "4": 1000,
+  "5": 1600,
+  "6": 1800,
+  "7-9": 5600
+ },
+ "cumulative": {
+  "1": 300,
+  "2": 500,
+  "3": 1000,
+  "4": 2000,
+  "5": 3600,
+  "6": 5400,
+  "7-9": 11000
+ },
+ "uniqueHanCharacters": 3088,
+ "strokeCoverage": {
+  "requested": 3088,
+  "available": 3088,
+  "missing": []
+ },
+ "coverage": {
+  "entries": 11000,
+  "cedictExact": 10750,
+  "cedictToneVariant": 246,
+  "cedictNone": 4,
+  "viDraft": 0,
+  "viReviewed": 11000,
+  "viMissing": 0,
+  "examplesReviewed": 300,
+  "audio": 0,
+  "entriesAllCharsHaveStrokes": 11000,
+  "hanViet": 11000
+ },
+ "sources": {
+  "hsk": {
+   "repo": "https://github.com/uranbekanarbaev/hsk-3.0-vocabulary-dataset",
+   "commit": "6859875bf3ba3b7209dee3b23171f893f7493776",
+   "sha256": "e44b03ec986bc28d5dcb10b11452b3df39b78cfc2d21120e1b9657e7f2ad8820",
+   "fetched": "2026-11-17",
+   "license": "CHƯA XÁC MINH quyền tái xuất bản dữ liệu đề cương; chủ dự án cần xác nhận."
+  },
+  "cedict": {
+   "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+   "entries": 125423,
+   "sha256": "e633d741b2cfa2f8fac706f4072a9868c4768b81289295a96db676775c219e28",
+   "license": "CC BY-SA 4.0"
+  },
+  "cvdict": {
+   "url": "https://github.com/ph0ngp/CVDICT",
+   "entries": 122596,
+   "sha256": "4dde4b204193efa9c192d7f7daeab1bb579c8ccd7c41ed90d1b6caee22ba0948",
+   "license": "CC BY-SA 4.0"
+  },
+  "hanviet": {
+   "url": "https://github.com/ph0ngp/hanviet-pinyin-wordlist",
+   "sha256": "dd90d59db1265a47317477c9f741baeff7cb4dfed58d9a0c2be5f69b9ed14d66"
+  },
+  "strokes": {
+   "package": "hanzi-writer-data@2.0.1",
+   "library": "hanzi-writer@3.7.3",
+   "license": "Arphic Public License (dữ liệu nét), MIT (thư viện) — xem public/licenses/"
+  },
+  "vietnamese": "Toàn bộ 11.000 mục từ đều có âm Hán Việt và nghĩa tiếng Việt (300 mục HSK 1 kèm câu ví dụ tại data/vi/hsk1-reviewed.tsv; các mục còn lại ghép từ CVDICT CC BY-SA 4.0 và bổ sung đầy đủ)."
+ }
+}
